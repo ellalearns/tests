@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkoutt
+      - name: Checkout
         uses: actions/checkout@v2
 
       - name: Make gradlew executable
